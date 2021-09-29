@@ -1,0 +1,61 @@
+REQUIRED DEPENDENCIES AND LIBRARIES
+====================================
+
+INSTALL HD-WALLET-DERIVE
+------------------------
+1. Create a 'wallet' folder.
+
+2. Open a GitBash terminal as Administrator.
+
+3. cd into the 'wallet folder and run the following code:
+
+- git clone https://github.com/dan-da/hd-wallet-derive
+- cd hd-wallet-derive
+  
+- curl https://getcomposer.org/installer -o installer.php
+ 
+- php installer.php
+  
+- php composer.phar install
+
+
+4. You now have a folder named 'hd-waller-derive' within your 'wallet' folder
+
+CREATE NEW ACACONDA ENVIRONMENT FOR BIT AND WEB3
+-------------------------------------------------
+1. Open an instance of GitBash and create a new python environment with the following code:
+
+- conda create -n ehtereum python=3.7 anaconda
+
+2. Activate 'ethereum' environment.
+
+3. Install web3.py with the following code:
+
+- pip install web3
+
+4. Install bit with the following code:
+
+- pip install bit
+
+VERIFY THAT BIT AND WEB3 HAVE INSTALLED
+---------------------------------------
+1. Input the following code one at a time to check if bit and web3 installed properly.
+
+- conda list web3
+- conda list bit
+
+2. YOUR DEPENDENCIES AND LIBRARIES ARE INSTALLED!
+
+
+SETTING UP THE PROJECT
+========================
+
+CREATE A SYMLINK FOR HD-WALLET-DERIVE.PHP
+-----------------------------------------
+1. Open GitBash as Administrator, cd into the wallet folder and run the following commands:
+
+- export MSYS=winsymlink:nativestrict
+- ln -s hd-wallet-derive/hd-wallet-derive.php derive
+
+2. YOU'RE ALL SET TO USE THE WALLET.IPYNB!
+
